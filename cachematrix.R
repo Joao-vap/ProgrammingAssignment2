@@ -42,6 +42,7 @@ cacheSolve <- function(x, ...) {
   if (!is.null(inv_matrix)) {
     message("getting in cache")
     return(inv_matrix)
+    
   } 
 
   #Othewise, we need to calculate the inverse
